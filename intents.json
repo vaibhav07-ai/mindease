@@ -1,0 +1,117 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! I am here to listen. How are you feeling today?",
+        "Hi there! How are you doing?"
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I feel anxious",
+        "I am stressed",
+        "I cannot stop worrying",
+        "I feel nervous",
+        "I feel overwhelmed"
+      ],
+      "responses": [
+        "I hear you. Anxiety can be really tough. Try breathing in for 4 counts, hold for 4, breathe out for 4.",
+        "It is okay to feel anxious. You are not alone. Can you tell me more?"
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I feel sad",
+        "I am depressed",
+        "I feel hopeless",
+        "I dont want to do anything",
+        "I feel empty"
+      ],
+      "responses": [
+        "I am really sorry you are feeling this way. Can you tell me more?",
+        "What you are feeling is valid. I am here to listen."
+      ]
+    },
+    {
+      "tag": "crisis",
+      "patterns": [
+        "I want to hurt myself",
+        "I want to die",
+        "I am suicidal",
+        "I want to end my life"
+      ],
+      "responses": [
+        "I am very concerned about you. Please call iCall at 9152987821 right now. You are not alone."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "I cannot sleep",
+        "I have insomnia",
+        "I am always tired",
+        "I keep waking up"
+      ],
+      "responses": [
+        "Sleep problems really affect how we feel. Try a fixed sleep schedule and avoid screens before bed."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel lonely",
+        "I have no friends",
+        "nobody cares",
+        "I feel alone"
+      ],
+      "responses": [
+        "Feeling lonely is really painful. I am here and I care. What has been making you feel this way?"
+      ]
+    },
+    {
+      "tag": "positive",
+      "patterns": [
+        "I feel great",
+        "I am happy",
+        "things are good",
+        "I am doing well"
+      ],
+      "responses": [
+        "That is wonderful to hear! What has been going well for you?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "that helped"
+      ],
+      "responses": [
+        "You are welcome! I am always here if you need to talk."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk later"
+      ],
+      "responses": [
+        "Take care of yourself! I am here whenever you need me."
+      ]
+    }
+  ]
+}
