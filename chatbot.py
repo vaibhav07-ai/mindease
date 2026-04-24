@@ -1,21 +1,18 @@
 import os
-import nltk
-
-nltk.data.path.append('/app/nltk_data')
-nltk.download('vader_lexicon', download_dir='/app/nltk_data')
-nltk.download('punkt', download_dir='/app/nltk_data')
-nltk.download('wordnet', download_dir='/app/nltk_data')
-nltk.download('punkt_tab', download_dir='/app/nltk_data')
-
 import json
 import random
 import joblib
 import nltk
 
-nltk.download('vader_lexicon')
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('punkt_tab')
+nltk.data.path.append('/app/nltk_data')
+nltk.download('vader_lexicon', download_dir='/app/nltk_data', quiet=True)
+nltk.download('punkt', download_dir='/app/nltk_data', quiet=True)
+nltk.download('wordnet', download_dir='/app/nltk_data', quiet=True)
+nltk.download('punkt_tab', download_dir='/app/nltk_data', quiet=True)
+
+from groq import Groq
+from nltk.stem import WordNetLemmatizer
+from nltk.sentiment import SentimentIntensityAnalyzer
 
 from groq import Groq
 from nltk.stem import WordNetLemmatizer
